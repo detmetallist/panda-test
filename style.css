@@ -1,0 +1,244 @@
+/*   
+Theme Name: Panda-test
+Description: Тема для тестового задания
+Author: det_metallist
+Version: 1.0
+*/
+
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, 
+b, u, i, center, 
+dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td, 
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, 
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+html,body{
+	font-family: 'Inter';
+}
+header{
+	width: 1278px;
+	margin: 12px auto 0;
+}
+.header_img{
+	width: 100%;
+    background: #0E0E0E;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+.header_logo{
+	position: relative;
+	top: -67px;
+	left: 38px;
+	width: 180px;
+}
+.header_logo .logo_img{
+	height: 140px;
+	width: 140px;
+	background: #fff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header_logo .logo_img .logo_img_circle{
+	width: 134px;
+	height: 134px;
+	background: #000;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header_logo h1{
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 29px;
+	text-transform: uppercase;
+	margin-top: 24px;
+	margin-left: 2px;
+}
+.header_logo p{
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 19px;
+	color: #B4B8C4;
+	font-weight: 500;
+}
+.hashtags{
+	margin: 100px auto 0;
+	width: 1200px;
+}
+.hashtags ul{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+.hashtags a{
+	height: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #9274F8;
+    background: #EFEAFE;
+    padding: 0 21px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 11px;
+    margin: 0 5.3px;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+}
+.hashtags li:last-child a{
+	margin-right: 6px;
+}
+.hashtags a.active, .hashtags a:hover{
+	background: #2E3238;
+	color: #fff;
+}
+.content{
+	width: 1200px;
+	margin: 110px auto;
+}
+.content .wrapper{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.h_scroll{
+	height: 5px;
+	position: relative;
+	margin-bottom: 39px;
+}
+.h_scroll_wrapper{
+	background: #E7E6EC;
+	top: 2px;
+	height: 1px;
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+}
+.h_scroll_scroll{
+	height: 5px;
+	position: absolute;
+	left: 0;
+	background: #926FFB;
+	width: 188px;
+	z-index: 2;
+	border-radius: 3px;
+}
+.content_item{
+	width: 372px;
+	background: #ECEFF6;
+	border-radius: 16px;
+	margin-bottom: 50px;
+}
+.content_item_img{
+	position: relative;
+}
+.content_item_img img{
+	border-radius: 16px;
+}
+.content_item .content_item_content{
+	width: calc(100% - 29px);
+	margin: 16px auto 20px;
+}
+.content_item_img p{
+	position: absolute;
+    left: 14px;
+    top: 14px;
+    border-radius: 40px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B4B8C4;
+    height: 26px;
+    background: #fff;
+    padding: 4px 14px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+.content_item_content h2, .content_item_content a{
+	font-size: 24px;
+    line-height: 29px;
+    height: 86px;
+    font-weight: 600;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s;
+    letter-spacing: 0.33px;
+}
+.content_item_content a:hover{
+	color: #B4B8C4;
+}
+.content_item_content p{
+	font-size: 16px; 
+	line-height: 19px;
+	font-weight: 400;
+	margin-bottom: 33px;
+	letter-spacing: 0.1px;
+}
+.content_item_bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content_item_bottom .logo{
+	height: 27px;
+	width: 27px;
+	background: #000;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content_item_bottom .logo img{
+	height: 18px;
+}
+.content_item_bottom .bottom_right, .content_item_bottom .bottom_left{
+	display: flex;
+	align-items: center;
+}
+.content_item_bottom span{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+	color: #B4B8C4;
+	margin-left: 9px;
+    margin-right: 10px;
+}
+.bottom_right>img{
+	margin-right: 8px;
+}
+.content_item_bottom .bottom_right span:last-child{
+	margin-right: 1px;
+}
+form{
+	width: 100%;
+}
+form input, form textarea{
+	max-width: 600px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+form label{
+	font-size: 18px;
+	line-height: 1.5;
+}
